@@ -51,7 +51,7 @@ def format_exception(exc, value, tb):
 
 def excepthook(exc, value, tb):
     formatted = u''.join(format_exception(exc, value, tb))
-    formatte = translate(formatted)
+    formatted = translate(formatted)
     write_stream(formatted, STREAM)
 
 
