@@ -72,7 +72,6 @@
 #             formatted+=hindi_error
 #             return formatted    
 
-
 import json   
 def translate(formatted):
     a="ng_exceptions/"+"error.json"
